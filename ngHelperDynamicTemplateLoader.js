@@ -23,7 +23,7 @@ function DynamicTemplateLoaderService(defaultCachingServiceObject) {
 
   self.isTemplateRequest = function(requestConfig) {
     var result = (templatePattern.test(requestConfig.url));
-    console.log("Checking request: " + requestConfig.url + " -> " + result);
+    //console.log("Checking request: " + requestConfig.url + " -> " + result);
     return result;
   };
 
